@@ -23,7 +23,7 @@ html {
 }
 
 .yellow {
-  color: #e6C98a;
+  color: #e6c98a;
 }
 
 .light-gray {
@@ -56,8 +56,8 @@ html {
 }
 
 .btn-gray:hover {
-  color: #e6C98a;
-  border: 4px solid #e6C98a;
+  color: #e6c98a;
+  border: 4px solid #e6c98a;
   border-radius: 4px;
   padding: .375em .75em .42em;
   text-decoration: none;
@@ -74,8 +74,8 @@ html {
 }
 
 .btn-red:hover {
-  color: #e6C98a;
-  border: 4px solid #e6C98a;
+  color: #e6c98a;
+  border: 4px solid #e6c98a;
   border-radius: 4px;
   padding: .375em .75em .42em;
   text-decoration: none;
@@ -107,7 +107,7 @@ html {
 }
 
 h1:hover {
-  color: #D13704;
+  color: #d13704;
 }
 
 a:focus {
@@ -139,7 +139,7 @@ nav li a {
 }
 
 nav li a:hover {
-  color: #D13704;
+  color: #d13704;
 }
 
 nav ul {
