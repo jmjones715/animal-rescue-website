@@ -2,10 +2,6 @@ html {
   font-family: Roboto, sans-serif;
 }
 
-.condensed {
-  font-family: "Roboto Condensed", sans-serif;
-}
-
 .oswald {
   font-family: Oswald, sans-serif;
 }
@@ -52,7 +48,7 @@ html {
   border-radius: 4px;
   padding: .375em .75em .42em;
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .btn-gray:hover {
@@ -61,7 +57,7 @@ html {
   border-radius: 4px;
   padding: .375em .75em .42em;
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .btn-red {
@@ -70,7 +66,7 @@ html {
   border-radius: 4px;
   padding: .375em .75em .42em;
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .btn-red:hover {
@@ -79,7 +75,7 @@ html {
   border-radius: 4px;
   padding: .375em .75em .42em;
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .pad-l-1-2 {
