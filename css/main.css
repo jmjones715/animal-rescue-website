@@ -102,10 +102,6 @@ html {
   padding-right: 2em;
 }
 
-h1:hover {
-  color: #d13704;
-}
-
 a:focus {
   outline: 3px solid #3892e0;
   background-color: #ace2ff;
