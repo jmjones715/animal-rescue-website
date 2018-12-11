@@ -78,44 +78,72 @@
 
     <form class="grid wrapper island-2" method="POST" action="https://formspree.io/jmjones715@gmail.com">
       <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-2">
-        <label for="name-f" class="dark-bluetxt">*First Name</label>
+        <label for="name-f" class="dark-gray-text bold montserrat">*First Name</label>
         <input id="name-f" name="name-f" required>
       </div>
 
       <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-2">
-        <label for="name-l" class="dark-bluetxt">*Last Name</label>
+        <label for="name-l" class="dark-gray-text bold montserrat">*Last Name</label>
         <input id="name-l" name="name-l" required>
       </div>
 
       <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-2">
-        <label for="phone" class="dark-bluetxt">Phone</label>
+        <label for="age" class="dark-gray-text bold montserrat">*Age</label>
+        <input id="age" type="age" placeholder="at least 18 years old" required>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-2">
+        <label for="phone" class="dark-gray-text bold montserrat">Phone</label>
         <input id="phone" type="tel">
       </div>
 
       <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-2">
-        <label for="email" class="dark-bluetxt">*E-mail</label>
+        <label for="email" class="dark-gray-text bold montserrat">*E-mail</label>
         <input id="email" type="email" placeholder="abc@123hotmail.com" required>
       </div>
 
       <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-2">
-        <label for="company" class="dark-bluetxt">*Company Name</label>
+        <label for="country" class="dark-gray-text bold montserrat">Country</label>
+        <select id="country">
+          <option>Austrailia</option>
+          <option>Brazil</option>
+          <option>Canada</option>
+          <option>Germany</option>
+          <option>Jamaica</option>
+          <option>Italy</option>
+          <option>France</option>
+          <option>United States of America</option>
+          <option>Anywhere Else</option>
+        </select>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-2">
+        <label for="state" class="dark-gray-text bold montserrat">*Province/State</label>
+        <input id="state" required>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-2">
+        <label for="company" class="dark-gray-text bold montserrat">*Address</label>
         <input id="company" required>
       </div>
 
       <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-2">
-        <label for="company-t" class="dark-bluetxt">*Company Type</label>
-        <select id="company-t">
-          <option>restaurant</option>
-          <option>electronics</option>
-          <option>health/wellness</option>
-          <option>sports/active</option>
-          <option>toys/games</option>
-          <option>construction</option>
+        <label for="gender" class="dark-gray-text bold montserrat">Gender</label>
+        <select id="gender">
+          <option>male</option>
+          <option>female</option>
+          <option>both</option>
+          <option>other</option>
         </select>
       </div>
 
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-2">
+        <label for="job" class="dark-gray-text bold montserrat">*Employment Status</label>
+        <input id="job" type="job" required>
+      </div>
+
       <div class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2">
-        <label for="company-o" class="dark-graytxt">If not listed above, name your company type here:</label>
+        <label for="company-o" class="red-dark montserrat bold">Why do you want to adopt a ferret?</label>
         <textarea id="company-o"></textarea>
       </div>
 
